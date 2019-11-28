@@ -1,0 +1,25 @@
+{
+  "name": "frontend-data",
+  "version": "1.0.0",
+  "description": "![preview](https://github.com/kylebot0/functional-programming/blob/master/Github_images/Schermafbeelding%202019-11-14%20om%2012.50.45.png) ## Table of Contents 🗃",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylebot0/frontend-data.git"
+  },
+  "author": "Kyle Bot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylebot0/frontend-data/issues"
+  },
+  "homepage": "https://github.com/kylebot0/frontend-data#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
