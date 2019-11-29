@@ -158,7 +158,7 @@ localhost:3000
 
 ## Credits
 
-I followed a tutorial for the legend from: https://www.d3-graph-gallery.com/graph/bubble_legend.html. It shows a complete example on how to make it. The functional getData pattern i got from Laurens. It is tweaked heavily so i kind off gave my own twist to it.
+I followed a tutorial for the legend from: https://www.d3-graph-gallery.com/graph/bubble_legend.html. It shows a complete example on how to make it. The functional getData pattern i got from Laurens. It is tweaked heavily so i kinda gave my own twist to it.
 
 
 ## License
