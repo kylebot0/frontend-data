@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color:#161817;
+}
+
+.country {
+  fill: #333331;
+  stroke: #696969;
+  stroke-width: 0.3px;
+/*   stroke-opacity: 0.2; */
+}
+
+.sphere {
+  fill: #161817;
+}
+circle{
+  opacity: 0.8;
+}
+circle:hover {
+  cursor: pointer;
+/*   stroke: #fff;
+  stroke-width: .5px; */
+}
+
+.modal {
+  transition: all 300ms;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: -40%;
+  top: 0;
+  width: 140%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%; 
+  height: 100%;
+
+}
+
+.close {
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+div.tooltip {
+  border-radius: 10px;
+  color: black;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: rgba(176,224,230,1);
+  border: 1px solid lightgrey;
+  pointer-events: none;
+  height:15%;
+}
+
+h2 {
+  font-size: 0.9em;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.input-container {
+  padding: 1em;
+  right: 0;
+	position:fixed;
+  height: 10vh;
+  background-color: white;
+  width: 12vw;
+ 	border-radius: 0 0 0 10px;
+  border: 2px solid grey;
+    border-top: 0;
+  border-right: 0;
+}
+.legend {
+  z-index: 1100;
+  position:fixed;
+  bottom: 0;
+}
+.legend circle {
+  fill: none;
+  stroke: #fff;
+}
+
+.legend text {
+  fill: #fff;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+input {
+font-size: 0.6em;
+}
+/* .fadeIn {
+  transition: all 300ms;
+  display: block !important;
+  left: 0 !important;
+  background-color: rgba(0,0,0,0.3) !important;
+} */
+
