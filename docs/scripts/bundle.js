@@ -287,7 +287,7 @@
   const g = svg.append('g');
   const width = screen.width;
   const height = screen.height;
-  const projection = d3$1.geoMercator().scale([110]).translate([width / 2, height / 2]);
+  const projection = d3$1.geoMercator().scale([180]).translate([width / 2, height / 2]);
   const zoom = d3.zoom().scaleExtent([1, 16]);
 
   makeSVG();
