@@ -2,29 +2,31 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
-  background-color:#161817;
+  background-color: #161817;
 }
 
 .country {
   fill: #333331;
   stroke: #696969;
   stroke-width: 0.3px;
-/*   stroke-opacity: 0.2; */
+  /*   stroke-opacity: 0.2; */
 }
 
 .sphere {
   fill: #161817;
 }
-circle{
+
+circle {
   opacity: 0.8;
 }
+
 circle:hover {
   cursor: pointer;
-/*   stroke: #fff;
+  /*   stroke: #fff;
   stroke-width: .5px; */
 }
 
-.modal {
+/* .modal {
   transition: all 300ms;
   display: none; 
   position: fixed; 
@@ -45,7 +47,7 @@ circle:hover {
   width: 25%; 
   height: 100%;
 
-}
+} */
 
 .close {
   transition: all 300ms;
@@ -61,10 +63,10 @@ div.tooltip {
   height: 28px;
   padding: 2px;
   font: 12px sans-serif;
-  background: rgba(176,224,230,1);
+  background: rgba(176, 224, 230, 1);
   border: 1px solid lightgrey;
   pointer-events: none;
-  height:15%;
+  height: 15%;
 }
 
 h2 {
@@ -76,7 +78,13 @@ p {
 }
 
 .input-container {
-  padding: 1em;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 35%;
+  height: 100%;
+
+  /*   padding: 1em;
   right: 0;
 	position:fixed;
   height: 10vh;
@@ -85,13 +93,15 @@ p {
  	border-radius: 0 0 0 10px;
   border: 2px solid grey;
     border-top: 0;
-  border-right: 0;
+  border-right: 0; */
 }
+
 .legend {
   z-index: 1100;
-  position:fixed;
+  position: fixed;
   bottom: 0;
 }
+
 .legend circle {
   fill: none;
   stroke: #fff;
@@ -104,12 +114,25 @@ p {
 }
 
 input {
-font-size: 0.6em;
+  font-size: 0.6em;
 }
+
+.input-modal {
+  box-shadow: -1px 0px 2px 1px #000;
+  transition: all 300ms;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  right: -60%;
+  top: 0;
+  width: 65%;
+  height: 100%;
+  overflow: auto;
+}
+
 /* .fadeIn {
   transition: all 300ms;
   display: block !important;
   left: 0 !important;
   background-color: rgba(0,0,0,0.3) !important;
 } */
-
